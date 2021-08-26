@@ -1,45 +1,47 @@
 import React from 'react';
-import './Menu.css';
-import {
-    BrowserRouter as Router,
-    Switch,
-    Route,
-    Link
-  } from "react-router-dom";
+import {Link} from "react-router-dom";
+import styled from 'styled-components';
   
 const Menu = () => {
     return (
         <>
-            <Router>
-                <header>
-                    <nav>
-                        <ul>
-                            <li>
-                                <Link to="/">Home</Link>
-                            </li>
-                            <li>
-                                <Link to="/about">About</Link>
-                            </li>
-                            <li>
-                                <Link to="/users">Users</Link>
-                            </li>
-                        </ul>
-                    </nav>
-                </header>
-                    <Switch>
-                    <Route path="/Home">
-                        {/* <About /> */}
-                    </Route>
-                    <Route path="/users">
-                        {/* <Users /> */}
-                    </Route>
-                    <Route path="/">
-                        {/* <Home /> */}
-                    </Route>
-                    </Switch>
-            </Router>
+            <header>
+                <Nav>
+                    <Ul>
+                        <Li>
+                            <NavLink to="/">Home</NavLink>
+                        </Li>
+                        <Li>
+                            <NavLink to="/about">About</NavLink>
+                        </Li>
+                        <Li>
+                            <NavLink to="/users">User</NavLink>
+                        </Li>
+                    </Ul>
+                </Nav>
+            </header>
         </>
     )
 }
 
+//Styles
+const Nav = styled.nav`
+background-color: #191C24;
+`
+const Ul = styled.ul`
+text-align: right;
+margin-right: 10vw
+`
+
+const Li = styled.li`
+    display: inline-block;
+    padding: 10px 20px;
+`
+
+const NavLink = styled(Link)` 
+    line-height: 2rem;
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: #fff;
+`
 export default Menu
