@@ -1,12 +1,10 @@
 import React from 'react';
-// import './Card.css';
 import img from '../images/StingerGTAVfrente.jpg'
 import {
     Link
   } from "react-router-dom";
-import styled from 'styled-components'
+import styled from 'styled-components';
   
-
 const Card = () => {
     return (
         <>
