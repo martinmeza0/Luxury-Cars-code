@@ -1,19 +1,18 @@
 import React from 'react';
-import img from '../images/StingerGTAVfrente.jpg'
-import {
-    Link
-  } from "react-router-dom";
+import {Link} from "react-router-dom";
 import styled from 'styled-components';
   
-const Card = () => {
+const Card = (props) => {
+    const {img, tittle, price} = props;
+
     return (
         <>
             <CardContainer>
-                <Tittle>Audi</Tittle>
+                <Tittle>{tittle}</Tittle>
                 <Img src={img} alt="audi"/>
                 <TextContainer>
                     <Button to="/:auto" >View</Button>
-                    <p class="price">$400.000</p>
+                    <p class="price">{price}</p>
                 </TextContainer>
             </CardContainer>        
         </>
