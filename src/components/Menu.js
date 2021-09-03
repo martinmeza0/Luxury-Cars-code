@@ -15,7 +15,7 @@ const Menu = () => {
                             <NavLink to="/about">About</NavLink>
                         </Li>
                         <Li>
-                            <NavLink to="/users">User</NavLink>
+                            <NavLink to="/support">Support</NavLink>
                         </Li>
                     </Ul>
                 </Nav>
@@ -43,5 +43,9 @@ const NavLink = styled(Link)`
     font-size: 1.2rem;
     text-decoration: none;
     color: #fff;
+    &:hover {
+        color: #A81010;
+        transition: color .2s ease-in-out;
+    }
 `
 export default Menu
