@@ -4,6 +4,7 @@ import Menu from '../components/Menu'
 import Slider from '../components/Slider';
 import Tagline from '../components/Tagline';
 import styled from 'styled-components'
+import Footer from '../components/Footer'
 
 //img
 const SingleView = () => {
@@ -24,6 +25,7 @@ const SingleView = () => {
                     </Information>
                 </Container>
             </Main>
+            <Footer></Footer>
 
         </>
     )
