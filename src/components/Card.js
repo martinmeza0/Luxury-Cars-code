@@ -3,15 +3,15 @@ import {Link} from "react-router-dom";
 import styled from 'styled-components';
   
 const Card = (props) => {
-    const {img, tittle, price} = props;
+    const {img, title, price} = props;
 
     return (
         <>
             <CardContainer>
-                <Tittle>{tittle}</Tittle>
+                <Title>{title}</Title>
                 <Img src={img} alt="audi"/>
                 <TextContainer>
-                    <Button to="/:auto" >View</Button>
+                    <Button to={title} >View</Button>
                     <p class="price">{price}</p>
                 </TextContainer>
             </CardContainer>        
@@ -24,7 +24,7 @@ const CardContainer = styled.article`
     background-color: #191C24;
     color: #fff;
 `
-const Tittle = styled.h3`padding: 10px;`
+const Title = styled.h3`padding: 10px;`
 
 const Img = styled.img`width: 100%;`
 

@@ -7,21 +7,25 @@ import styled from 'styled-components'
 import Footer from '../components/Footer'
 
 //img
-const SingleView = () => {
-    const {carName} = useParams()
+const SingleView = (props) => {
+    const {img, title, price, description, img2, img3} = props;
+
     return (
         <>
             <Menu></Menu>
             <Tagline></Tagline>
             <Main>
-                <Tittle>Auto</Tittle>
+                <Tittle>{title}</Tittle>
                 <Container>
                     <div> 
-                        <Slider></Slider>
+                        <Slider 
+                            img={img}
+                            img2={img2}
+                            img3={img3}/>
                     </div>
                     <Information>
-                        <p>Providing an excellent ride in an upscale interior that offers room for up to four adult passengers, the BMW M3 is a great example of a cool sports car that can transport your friends and family. Model years 2017 and 2018 come in one trim and are powered by a 425-hp 3.0L turbocharged inline-six engine that can be paired with a six-speed manual or seven-speed dual-clutch transmission.</p>
-                        <Button>Buy for $50.000</Button>
+                        <p>{description}</p>
+                        <Button>Buy for {price}</Button>
                     </Information>
                 </Container>
             </Main>

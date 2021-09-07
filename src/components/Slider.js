@@ -1,12 +1,13 @@
 import React, {useRef} from 'react';
-import img1 from '../images/BMW M3/1.webp';
-import img2 from '../images/BMW M3/2.webp';
-import img3 from '../images/BMW M3/3.webp';
+// import img1 from '../images/BMW M3/1.webp';
+// import img2 from '../images/BMW M3/2.webp';
+// import img3 from '../images/BMW M3/3.webp';
 import {ReactComponent as ArrowRight} from '../images/iconmonstr-arrow-25.svg';
 import {ReactComponent as ArrowLeft} from '../images/iconmonstr-arrow-64.svg';
 import styled from 'styled-components';
 
-const Slider = () => {
+const Slider = (props) => {
+    const {img, img2, img3} = props;
     const sliderShow = useRef(null);
 
     const moveToLeft = () => {
@@ -63,7 +64,7 @@ const Slider = () => {
         <Container>
             <SliderContainer ref={sliderShow}>
                 <Image>
-                    <Img src={img1}/>
+                    <Img src={img}/>
                 </Image>
                 <Image>
                     <Img src={img2}/>
@@ -123,8 +124,7 @@ const Button = styled.button`
         background: rgba(168, 16, 16 , .3);
     }
     & > svg {
-            opacity: 0.5;
-        }
+        opacity: 0.5;
     }
     ${props => props.right ? 'right: 0' : 'left: 0'}
 `

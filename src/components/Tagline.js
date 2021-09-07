@@ -7,7 +7,7 @@ const Tagline = () => {
         <>
             <TaglineContainer>
                 <Phrase>
-                    <Tittle>Luxury <Span>Cars</Span></Tittle>
+                    <Title>Luxury <Span>Cars</Span></Title>
                     <P>Because we love the <Span>luxury</Span> in our motors</P>
                 </Phrase>
             </TaglineContainer>
@@ -26,7 +26,7 @@ const Phrase = styled.div`
     padding: 30px;
     text-align: left;
 `
-const Tittle = styled.h1`
+const Title = styled.h1`
     font-size: 3rem;
     font-weight: 600;
 ` 

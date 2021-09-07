@@ -34,39 +34,41 @@ const Home = () => (
     <main>
       <Card 
         img="/image/1.webp" 
-        tittle="BMW M3" 
-        price="69,900 US$"/>
+        title="BMW M3" 
+        price="69,900 US$"
+        description= "Providing an excellent ride in an upscale interior that offers room for up to four adult passengers, the BMW M3 is a great example of a cool sports car that can transport your friends and family. Model years 2017 and 2018 come in one trim and are powered by a 425-hp 3.0L turbocharged inline-six engine that can be paired with a six-speed manual or seven-speed dual-clutch"
+        />
       <Card 
         img="/image/2.webp" 
-        tittle="Escalade Sport Platinum" 
+        title="Escalade Sport Platinum" 
         price="100,595 US$"/>
       <Card 
         img="/image/3.webp" 
-        tittle="Mustang GT" 
+        title="Mustang GT" 
         price="52,720 US$"/>
       <Card 
         img="/image/4.webp" 
-        tittle="F150 Raptor" 
+        title="F150 Raptor" 
         price="77,000 US$"/>
       <Card 
         img="/image/5.webp" 
-        tittle="BMW M760 IxDrive" 
+        title="BMW M760 IxDrive" 
         price="157,700 US$"/>
       <Card 
         img="/image/6.webp" 
-        tittle="Corvette Stingray" 
+        title="Corvette Stingray" 
         price="99,998 US$"/>
       <Card 
         img="/image/7.webp" 
-        tittle="Yukon SLT" 
+        title="Yukon SLT" 
         price="87,000 US$"/>
       <Card 
         img="/image/8.webp" 
-        tittle="Corvette Stingray 1LT" 
+        title="Corvette Stingray 1LT" 
         price="59,995 US$"/>
       <Card 
         img="/image/9.webp" 
-        tittle="Z4 sDrive30i" 
+        title="Z4 sDrive30i" 
         price="64,695 US$"/>
     </main>
     <Footer></Footer>
