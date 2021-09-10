@@ -1,31 +1,32 @@
 import React from 'react';
-import { useParams } from 'react-router-dom';
 import Menu from '../components/Menu'
 import Slider from '../components/Slider';
 import Tagline from '../components/Tagline';
 import styled from 'styled-components'
 import Footer from '../components/Footer'
+import Colors from '../components/Colors';
 
 //img
-const SingleView = (props) => {
-    const {img, title, price, description, img2, img3} = props;
+const SingleView = () => {
 
     return (
         <>
             <Menu></Menu>
             <Tagline></Tagline>
             <Main>
-                <Tittle>{title}</Tittle>
+                <Tittle>BMW M3</Tittle>
                 <Container>
                     <div> 
                         <Slider 
-                            img={img}
-                            img2={img2}
-                            img3={img3}/>
+                            img="/image/BMW M3/1.webp"
+                            img2="/image/BMW M3/2.webp"
+                            img3="/image/BMW M3/3.webp"
+                        />
+                    <Colors></Colors>
                     </div>
                     <Information>
-                        <p>{description}</p>
-                        <Button>Buy for {price}</Button>
+                        <p>Providing an excellent ride in an upscale interior that offers room for up to four adult passengers, the BMW M3 is a great example of a cool sports car that can transport your friends and family. Model years 2017 and 2018 come in one trim and are powered by a 425-hp 3.0L turbocharged inline-six engine that can be paired with a six-speed manual or seven-speed dual-clutch</p>
+                        <Button>Buy for 69,900 US$</Button>
                     </Information>
                 </Container>
             </Main>
