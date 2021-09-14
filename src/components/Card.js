@@ -12,7 +12,7 @@ const Card = (props) => {
                 <Img src={img} alt="audi"/>
                 <TextContainer>
                     <Button to={title} >View</Button>
-                    <p class="price">{price}</p>
+                    <p className="price">{price}</p>
                 </TextContainer>
             </CardContainer>        
         </>
@@ -24,9 +24,13 @@ const CardContainer = styled.article`
     background-color: #191C24;
     color: #fff;
 `
-const Title = styled.h3`padding: 10px;`
+const Title = styled.h3`
+    padding: 10px;
+`
 
-const Img = styled.img`width: 100%;`
+const Img = styled.img`
+    width: 100%;
+`
 
 const TextContainer = styled.div`
     padding: 10px;
