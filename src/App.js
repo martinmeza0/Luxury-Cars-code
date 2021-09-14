@@ -11,6 +11,7 @@ import {
 import About from './pages/About';
 import Footer from './components/Footer';
 import SingleView from './pages/SingleView';
+import Error404 from './pages/Error404';
 
 const App = () => {
   return (
@@ -18,7 +19,7 @@ const App = () => {
       <Switch>
           <Route path="/"  exact component={Home} />
           <Route path="/about" component={About}/>
-          <Route path="/support"/>
+          <Route path="/support" component={Error404}/>
           <Route path="/:carName" component={SingleView}/>
       </Switch>
     </Router>
@@ -35,8 +36,7 @@ const Home = () => (
       <Card 
         img="/image/1.webp" 
         title="BMW M3" 
-        price="69,900 US$"
-        />
+        price="69,900 US$"/>
       <Card 
         img="/image/2.webp" 
         title="Escalade Sport Platinum" 
