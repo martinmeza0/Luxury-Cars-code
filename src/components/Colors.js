@@ -7,19 +7,19 @@ const Colors = () => {
           <ColorContainer>
                 <h3>Available colors:</h3>
                 <label>
-                    <input type="radio" name="color"/> <span class="check red"></span>
+                    <input type="radio" name="color"/> <span className="check red"></span>
                 </label>
                 <label>
-                    <input type="radio" name="color"/> <span class="check green"></span>
+                    <input type="radio" name="color"/> <span className="check green"></span>
                 </label>
                 <label>
-                    <input type="radio" name="color"/> <span class="check yellow"></span>
+                    <input type="radio" name="color"/> <span className="check yellow"></span>
                 </label>
                 <label>
-                    <input type="radio" name="color"/> <span class="check black"></span>
+                    <input type="radio" name="color"/> <span className="check black"></span>
                 </label>
                 <label>
-                    <input type="radio" name="color"/> <span class="check white"></span>
+                    <input type="radio" name="color"/> <span className="check white"></span>
                 </label> 
             </ColorContainer>
         </>

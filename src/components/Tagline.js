@@ -1,7 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import background from '../images/car_bg.jpg';
-
+import background from '../assets/car_bg.jpg';
 const Tagline = () => {
     return (
         <>
@@ -21,6 +20,13 @@ const TaglineContainer = styled.section`
     background-attachment: fixed cover;
     height: 80vh;
     color: #fff;
+    @media (max-width: 900px) {
+        height: 70vh;
+    }
+    @media (max-width: 768px) {
+        background: url(${background}) center no-repeat;
+        background-attachment: cover;
+    }
 `
 const Phrase = styled.div`
     padding: 30px;

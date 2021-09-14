@@ -2,8 +2,8 @@ import React, {useRef} from 'react';
 // import img1 from '../images/BMW M3/1.webp';
 // import img2 from '../images/BMW M3/2.webp';
 // import img3 from '../images/BMW M3/3.webp';
-import {ReactComponent as ArrowRight} from '../images/iconmonstr-arrow-25.svg';
-import {ReactComponent as ArrowLeft} from '../images/iconmonstr-arrow-64.svg';
+import {ReactComponent as ArrowRight} from '../assets/iconmonstr-arrow-25.svg';
+import {ReactComponent as ArrowLeft} from '../assets/iconmonstr-arrow-64.svg';
 import styled from 'styled-components';
 
 const Slider = (props) => {
