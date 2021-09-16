@@ -20,12 +20,8 @@ const TaglineContainer = styled.section`
     background-attachment: fixed cover;
     height: 80vh;
     color: #fff;
-    @media (max-width: 900px) {
-        height: 70vh;
-    }
-    @media (max-width: 768px) {
+    @media (max-width: 1440px) {
         background: url(${background}) center no-repeat;
-        background-attachment: cover;
     }
 `
 const Phrase = styled.div`
