@@ -4,26 +4,17 @@ import styled from 'styled-components';
   
 const Menu = () => {
     const [openNav, setOpenNav] = useState(false);
-    let isDisplay = 'none';
-    const Opening = () => {
-        if (openNav) {
-            isDisplay = 'none';
-            setOpenNav(true);
-            return;
-        } 
-        isDisplay = 'flex';
-        return;
-    }
+
     return (
         <>
             <header>
                 <Nav>
-                    <NavButton onClick={Opening(true)}>
+                    <NavButton onClick={() => setOpenNav(!openNav)}>
                         <span className="bar"></span>
                         <span className="bar"></span>
                         <span className="bar"></span>
                     </NavButton>
-                    <Navbar display={isDisplay}>
+                    <Navbar display={openNav ? 'flex' : 'none'} transition={openNav ? '20px' : '-500px'}>
                         <li>
                             <NavLink to="/">Home</NavLink>
                         </li>
@@ -55,12 +46,13 @@ const Navbar = styled.ul`
         }
         @media (max-width: 768px) {
             background: #191C24;
-            /* position: absolute; */
-            /* top: -30vh; */
+            position: absolute;
+            top: ${props => props.transition};
             display: ${props => props.display};
             margin-top: 24px;
             flex-direction: column;
             width: 100%;
+            transition: top .3s ease-in-out;
             & > li {
                 text-align: center;
             }
@@ -98,6 +90,7 @@ const NavButton = styled.button`
     display: none;
     flex-direction: column;
     justify-content: space-between;
+
     & > .bar {
         height: 3px;
         width: 100%;
