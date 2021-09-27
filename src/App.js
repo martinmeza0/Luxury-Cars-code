@@ -13,7 +13,6 @@ import Footer from './components/Footer';
 import SingleView from './pages/SingleView';
 import Error404 from './pages/Error404';
 import {GridContainer} from './components/Styles';
-import styled from 'styled-components';
 
 const App = () => {
   return (
