@@ -55,6 +55,7 @@ const Navbar = styled.ul`
             transition: top .3s ease-in-out;
             & > li {
                 text-align: center;
+                border-bottom: 1px solid #ccc;
             }
         }
 `
@@ -72,12 +73,8 @@ const NavLink = styled(Link)`
     @media (max-width: 768px) {
         padding: 10px 0;
         width: 100%;
-        &:hover {
-            background: #000;
-        }
     }
 `
-
 const NavButton = styled.button`
     background: none;
     border: none;

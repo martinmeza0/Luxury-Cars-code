@@ -1,11 +1,11 @@
 import React from 'react';
-import Menu from '../components/Menu'
+import Menu from '../components/Menu';
 import Slider from '../components/Slider';
 import Tagline from '../components/Tagline';
-import styled from 'styled-components'
-import Footer from '../components/Footer'
+import styled from 'styled-components';
+import Footer from '../components/Footer';
 import Colors from '../components/Colors';
-
+import {SingleContainer} from '../components/Styles'
 //img
 const SingleView = () => {
 
@@ -13,7 +13,7 @@ const SingleView = () => {
         <>
             <Menu></Menu>
             <Tagline></Tagline>
-            <Main>
+            <SingleContainer>
                 <Tittle>BMW M3</Tittle>
                 <Container>
                     <div> 
@@ -29,7 +29,7 @@ const SingleView = () => {
                         <Button>Buy for 69,900 US$</Button>
                     </Information>
                 </Container>
-            </Main>
+            </SingleContainer>
             <Footer></Footer>
 
         </>
@@ -37,17 +37,23 @@ const SingleView = () => {
 }
 
 //styles
-const Main = styled.main`
-    display: block;
-    overflow: hidden;
-    
-`
-export {Main};
-
 const Container = styled.div`
     display: flex;
     & > div {
         width: 60%;
+        @media (max-width: 768px) {
+            width: 80%;
+        }
+        
+        @media (max-width: 426px) {
+            width: 100%;
+            margin: 10px 0;
+        }
+    }
+
+    @media (max-width: 768px) {
+        flex-direction: column;
+        align-items: center;
     }
 `
 

@@ -27,6 +27,9 @@ const TaglineContainer = styled.section`
 const Phrase = styled.div`
     padding: 30px;
     text-align: left;
+    @media (max-width: 426px) {
+        text-align: center;
+    }
 `
 const Title = styled.h1`
     font-size: 3rem;
@@ -36,6 +39,9 @@ const P = styled.p`
     font-weight: 300;
     font-style: italic;
     font-size: 1.5rem;
+    @media (max-width: 426px) {
+        margin-top: 10px;
+    }
 `
 const Span = styled.span`
     color: #A81010;
