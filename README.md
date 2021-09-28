@@ -1,6 +1,6 @@
 # Luxury Car Store :es:
 
-![vista-previa.jpg]
+![]vista-previa.jpg
 
 Una pagina de venta de autos de lujo, cuenta con 4 secciones:
 
