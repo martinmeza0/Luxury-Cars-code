@@ -1,6 +1,6 @@
 # Luxury Car Store :es:
 
-![https://github.com/martinmeza0/cars-store/blob/main/vista-previa.jpg]
+![]https://github.com/martinmeza0/cars-store/blob/main/vista-previa.jpg
 
 Una pagina de venta de autos de lujo, cuenta con 4 secciones:
 
