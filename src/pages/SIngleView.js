@@ -22,7 +22,7 @@ const SingleView = () => {
                             img2="/image/BMW M3/2.webp"
                             img3="/image/BMW M3/3.webp"
                         />
-                    <Colors></Colors>
+                        <Colors></Colors>
                     </div>
                     <Information>
                         <p>Providing an excellent ride in an upscale interior that offers room for up to four adult passengers, the BMW M3 is a great example of a cool sports car that can transport your friends and family. Model years 2017 and 2018 come in one trim and are powered by a 425-hp 3.0L turbocharged inline-six engine that can be paired with a six-speed manual or seven-speed dual-clutch</p>

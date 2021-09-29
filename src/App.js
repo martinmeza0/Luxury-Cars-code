@@ -21,7 +21,7 @@ const App = () => {
           <Route path="/"  exact component={Home} />
           <Route path="/about" component={About}/>
           <Route path="/support" component={Error404}/>
-          <Route path="/:carName" component={SingleView}/>
+          <Route path="/BMW M3" component={SingleView}/>
       </Switch>
     </Router>
   )
