@@ -11,7 +11,7 @@ const Card = (props) => {
                 <Title>{title}</Title>
                 <Img src={img} alt="audi"/>
                 <TextContainer>
-                    <Button to="BMW M3" >View</Button>
+                    <Button to={title} >View</Button>
                     <p className="price">{price}</p>
                 </TextContainer>
             </CardContainer>        
