@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/LuxuryCars/static/css/main.ba441e30.chunk.css",
-    "main.js": "/LuxuryCars/static/js/main.f706711f.chunk.js",
-    "main.js.map": "/LuxuryCars/static/js/main.f706711f.chunk.js.map",
-    "runtime-main.js": "/LuxuryCars/static/js/runtime-main.b88d3240.js",
-    "runtime-main.js.map": "/LuxuryCars/static/js/runtime-main.b88d3240.js.map",
-    "static/js/2.cab1f178.chunk.js": "/LuxuryCars/static/js/2.cab1f178.chunk.js",
-    "static/js/2.cab1f178.chunk.js.map": "/LuxuryCars/static/js/2.cab1f178.chunk.js.map",
-    "index.html": "/LuxuryCars/index.html",
-    "static/css/main.ba441e30.chunk.css.map": "/LuxuryCars/static/css/main.ba441e30.chunk.css.map",
-    "static/js/2.cab1f178.chunk.js.LICENSE.txt": "/LuxuryCars/static/js/2.cab1f178.chunk.js.LICENSE.txt",
-    "static/media/404.fc0690bc.svg": "/LuxuryCars/static/media/404.fc0690bc.svg",
-    "static/media/car_bg.0798e5d2.jpg": "/LuxuryCars/static/media/car_bg.0798e5d2.jpg",
-    "static/media/iconmonstr-arrow-25.2baba32d.svg": "/LuxuryCars/static/media/iconmonstr-arrow-25.2baba32d.svg",
-    "static/media/iconmonstr-arrow-64.89879f66.svg": "/LuxuryCars/static/media/iconmonstr-arrow-64.89879f66.svg"
+    "main.css": "/luxurycars/static/css/main.ba441e30.chunk.css",
+    "main.js": "/luxurycars/static/js/main.f706711f.chunk.js",
+    "main.js.map": "/luxurycars/static/js/main.f706711f.chunk.js.map",
+    "runtime-main.js": "/luxurycars/static/js/runtime-main.edeba88f.js",
+    "runtime-main.js.map": "/luxurycars/static/js/runtime-main.edeba88f.js.map",
+    "static/js/2.fa2f5158.chunk.js": "/luxurycars/static/js/2.fa2f5158.chunk.js",
+    "static/js/2.fa2f5158.chunk.js.map": "/luxurycars/static/js/2.fa2f5158.chunk.js.map",
+    "index.html": "/luxurycars/index.html",
+    "static/css/main.ba441e30.chunk.css.map": "/luxurycars/static/css/main.ba441e30.chunk.css.map",
+    "static/js/2.fa2f5158.chunk.js.LICENSE.txt": "/luxurycars/static/js/2.fa2f5158.chunk.js.LICENSE.txt",
+    "static/media/404.fc0690bc.svg": "/luxurycars/static/media/404.fc0690bc.svg",
+    "static/media/car_bg.0798e5d2.jpg": "/luxurycars/static/media/car_bg.0798e5d2.jpg",
+    "static/media/iconmonstr-arrow-25.2baba32d.svg": "/luxurycars/static/media/iconmonstr-arrow-25.2baba32d.svg",
+    "static/media/iconmonstr-arrow-64.89879f66.svg": "/luxurycars/static/media/iconmonstr-arrow-64.89879f66.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.b88d3240.js",
-    "static/js/2.cab1f178.chunk.js",
+    "static/js/runtime-main.edeba88f.js",
+    "static/js/2.fa2f5158.chunk.js",
     "static/css/main.ba441e30.chunk.css",
     "static/js/main.f706711f.chunk.js"
   ]
