@@ -1,6 +1,7 @@
 # Luxury Car Store :es:
 
 ![](https://github.com/martinmeza0/cars-store/blob/main/vista-previa.jpg)
+-----
 ![](https://github.com/martinmeza0/LuxuryCars/blob/main/car-preview1.gif)
 
 
